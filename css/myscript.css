@@ -35,8 +35,14 @@ main-info{
   height: 100%;
 }
 
-.social a{
 
+
+.social{
+  margin-top: 1.5rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.social a{
   margin-right: 1rem;
 }
 #about{
@@ -68,7 +74,7 @@ main-info{
   padding-left: 3%; */
   justify-content: center;
   padding:3%;
-  
+
 }
 
 /* blog animation */
@@ -181,5 +187,45 @@ a {
  grid-column-start: 1;
 }
 .iwriteabout{
-  padding-left:100px;
+  padding-left:130px;
+}
+
+@media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+  .parent div {
+   /* background-color: rgba(0,0,0,0.5); */
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+  }
+  .iwriteabout{
+    padding-left:65px;
+  }
+
+}
+@media only screen and (max-device-width: 375px), only screen and (max-width: 375px) {
+  .parent div {
+   /* background-color: rgba(0,0,0,0.5); */
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+  }
+  .iwriteabout{
+    padding-left:21px;
+  }
+
+
+}
+@media only screen and (max-device-width: 320px), only screen and (max-width: 320px) {
+  #myimg{
+    width: 200px;
+  }
+  #iwrite{
+    padding-left: 48px;
+  }
+  #parent_iwrite{
+    padding-left: 10px;
+  }
+
+/* use media query for 320px   */
+
 }
