@@ -6,27 +6,45 @@ canvas{
   display: block; vertical-align: bottom;
 }
    /* ---- particles.js container ---- */
- #particles-js{ position:absolute; width: 100%;
-      height: 100%;
-      background-color: #000000;
-      background-image: url("");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 50%;
-    }
 
-#project-head {
-  align-items: center;
-  align: center;
-    background-color:transparent;
-    font-family: 'Merienda', cursive;
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index:-1; */
+   
 }
-
-* { z-index: 2; }
-.particle, .particle > canvas { z-index: 1 !important; }
-.container-md{
+    
+.project-head {
+  text-align: center;
   background-color:transparent;
-
-  color: #ffffff;
+  font-family: 'Merienda', cursive;
 }
+  
+
+/* * { z-index: 2; } */
+/* .particle, .particle > canvas { z-index: 1 !important; } */
+.container-md{
+  text-align:center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-top:150px;
+  background-color:transparent;
+  color: #ffffff;
+  
+  /* z-index:0; */
+}
+ul{
+  list-style-type: none;
+}
+
+
