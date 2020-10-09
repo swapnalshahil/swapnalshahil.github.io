@@ -20,6 +20,9 @@ main-info{
   font-family: 'Noto Serif', serif;
 
 }
+
+
+
 #name{
     font-family: 'Recursive', sans-serif;
 }
@@ -74,8 +77,8 @@ main-info{
   padding-left: 3%; */
   justify-content: center;
   padding:3%;
-
 }
+
 
 /* blog animation */
 
@@ -119,9 +122,10 @@ a {
   margin-right:auto
 }
 
+
+
 .word {
   /* position: absolute; */
-  width: 220px;
   opacity: 0;
 }
 
@@ -179,6 +183,24 @@ a {
 }
 .iwriteabout{
   padding-left:130px;
+}
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  nav h4{
+    font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 320px),only screen and (max-device-width: 320px) {
+  nav h4{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 425px), only screen and (min-device-width: 425px){
+  .word {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
