@@ -185,44 +185,16 @@ a {
   padding-left:130px;
 }
 
-@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
-  nav h4{
-    font-size: 19px;
-    }
-   
-}
 
-@media only screen and (max-width: 320px),only screen and (max-device-width: 320px) {
-  nav h4{
-    font-size: 15px;
-  }
-  #myimg{
-    width: 230px;
-  }
- 
-}
 
-@media only screen and (min-width: 425px), only screen and (min-device-width: 425px){
-  .word {
-    width: 200px;
-  }
-}
-@media only screen and (min-width: 540px), only screen and (min-device-width: 540px){
+
+
+
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px){
   #myimg {
-    width: 230px;
+    width: 220px;
   }
 }
-@media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
-  nav h4{
-    font-size: 13px;
-  }
-  .word {
-    width: 150px;
-  }
-  
-  
-}
-
 @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
   .parent div {
    /* background-color: rgba(0,0,0,0.5); */
@@ -233,8 +205,26 @@ a {
   .iwriteabout{
     padding-left:65px;
   }
+  #myimg{
+    width: 211px;
+  }
 
 }
+@media only screen and (max-width: 425px), only screen and (max-device-width: 425px){
+  .word {
+    width: 200px;
+  }
+  #myimg{
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  nav h4{
+    font-size: 19px;
+    }
+   
+}
+
 @media only screen and (max-device-width: 375px), only screen and (max-width: 375px) {
   .parent div {
    /* background-color: rgba(0,0,0,0.5); */
@@ -265,3 +255,25 @@ a {
 /* use media query for 320px   */
 
 }
+
+@media only screen and (max-width: 320px),only screen and (max-device-width: 320px) {
+  nav h4{
+    font-size: 15px;
+  }
+  #myimg{
+    width: 200px;
+  }
+ 
+}
+@media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
+  nav h4{
+    font-size: 13px;
+  }
+  .word {
+    width: 150px;
+  }
+  
+  
+}
+
+
