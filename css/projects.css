@@ -34,14 +34,16 @@ canvas{
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 50%;
   left: 0;
   margin: auto;
   margin-top:150px;
+  margin-left: auto;
+  margin-right: auto;
   background-color:transparent;
   color: #ffffff;
   
-  /* z-index:0; */
+   z-index: inherit 1;
 }
 ul{
   list-style-type: none;
